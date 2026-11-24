@@ -1,0 +1,13 @@
+{% load static %}
+<header>
+    <div class="nav-container">
+        <a href="{% url 'home' %}" class="brand">
+            <img src="{% static 'portal/images/logo.png' %}" alt="CCS Logo" class="logo">
+            <span>Student Portal</span>
+        </a>
+        <nav>
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'about' %}">About</a>
+        </nav>
+    </div>
+</header>
